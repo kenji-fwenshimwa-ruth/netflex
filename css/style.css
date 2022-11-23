@@ -1,0 +1,145 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+
+}
+
+.header{
+    background-image:linear-gradient( to bottom, rgba(0, 0, 0, 0.899), rgba(27, 7, 7, 0.269), 
+    rgba(0, 0, 0, 0.837)), url(/images/background.jpg);
+    width: 100%;
+    height: 100vh;
+    border-bottom: 10px solid gray;
+    
+}
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.btn button{
+    padding: 9px 20px;
+    background-color: red;
+    color: inherit;
+    border-radius:10px ;
+    font-size: 20px;
+    border: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.text {
+    text-align: center;
+    color: inherit;
+}
+.text h1 {
+    font-weight: 100;
+    font-size: 65px;
+    
+}
+.text p {
+    font-weight: 100;
+    font-size: 20px;
+}
+ button {
+    color: inherit;
+    background-color: red;
+    border: none;
+    padding: 12px 40px;
+    font-size: 20px;
+
+}
+.form input{
+height:50px;
+width: 400px;
+font-size: 14pt;
+margin-top: 5px;
+}
+.text #watch {
+    margin: 20px;
+    font-size: 30px;
+}
+.first {
+    background-color: black;
+    display: flex;
+    margin: 0;
+    border-bottom: 10px solid gray;
+    padding: 20px;
+    justify-content: center;
+}
+span{
+    font-size: 60px;
+    font-weight: 400;
+   
+}
+
+ p {
+    font-size: 20px;
+    font-weight: 400;
+   
+}
+.second {
+    background-color: black;
+    display: flex;
+    border-bottom: 10px solid gray;
+padding: 20px;
+}
+
+.third {
+    background-color: black;
+    display: flex;
+    border-bottom: 10px solid gray;
+    padding: 80px;
+    justify-content: center;
+    
+}
+
+.fouth {
+    background-color: black;
+    display: flex;
+    border-bottom: 10px solid gray;
+    padding: 20px;
+}
+
+.fifth{
+    background-color: black;
+    text-align: center;
+    border-bottom: 10px solid gray;
+}
+
+.sixth {
+    
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.fifth {
+    padding: 20px;
+}
+.fifth p {
+    font-size:15px ;
+    margin: 10px;
+}
+
+.fifth .question {
+    margin-bottom: 500px;
+}
+
+.sixth a {
+    color: gray;
+    padding: 90px;
+    margin: 50px;
+}
+.footer {
+    border-bottom: 10px solid gray;
+    background-color: black;
+}
+
